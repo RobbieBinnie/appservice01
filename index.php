@@ -1,5 +1,6 @@
 <?php
 
-echo "hello people!";
+echo "<h1>hello people!</h1>";
+
 
 ?>
