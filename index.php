@@ -18,7 +18,7 @@ curl_close($ch);
 $vars = json_decode($output, true);
 
 
-echo "this part uses an API I wrote to get the time... somewhere in america... i think<br/><br/>";
+echo "this part uses an API I wrote to get the time... somewhere in america... i think, maybe i should fix it...<br/><br/>";
 
 echo $vars["data"];
 
