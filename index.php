@@ -22,6 +22,6 @@ echo "this part uses an API I wrote to get the time... somewhere in america... i
 
 echo $vars["data"];
 
-echo "ahh, looks like the time stuff has been fixed now!"
+echo "<br/>ahh, looks like the time stuff has been fixed now!"
 
 ?>
