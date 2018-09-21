@@ -3,7 +3,7 @@
 echo "<h1>hello people!</h1>";
 echo "<h2>this should auto deploy</h2>";
 echo "<p>I really am not good at making sites look good...</p>";
-
+echo "if you would like to order, click <a href='https://testphpdeploymentadmin.azurewebsites.net'>here</a>to authenticate";
 
 $ch = curl_init();
 
