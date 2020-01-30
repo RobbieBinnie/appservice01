@@ -4,7 +4,9 @@ echo "<h1>hello people!</h1>";
 echo "<h2>this should auto deploy</h2>";
 echo "<p>I really am not good at making sites look good...</p>";
 echo "if you are an admin, click <a href='https://testphpdeploymentadmin.azurewebsites.net'>here</a>to authenticate and do admin stuff";
-
+echo "<img src='https://www.glasgowheritage.org.uk/wp-content/uploads/NTS-Logo-Mono.jpg'>"
+  
+  
 $ch = curl_init();
 
 curl_setopt($ch, CURLOPT_URL, "https://testphpdeploymentapi.azurewebsites.net/api.php?info=time");
