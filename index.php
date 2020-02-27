@@ -25,27 +25,4 @@ echo $vars["data"];
 echo "<br/>ahh, looks like the time stuff has been fixed now!";
 echo "<br/> this is a new line!";
 
-echo <<<EOL
-  <h1>hello world</h1>
-
-  <button type="button" onclick="loadDoc()">Request data</button>
-
-  <p id="demo"></p>
-
-  <script>
-  function loadDoc() {
-    var xhttp = new XMLHttpRequest();
-    xhttp.onreadystatechange = function() {
-      if (this.readyState == 4 && this.status == 200) {
-        document.getElementById("demo").innerHTML = this.responseText;
-      }
-    };
-    xhttp.open("GET", "https://az-hubble-dev-func-read01.azurewebsites.net/api/layer/2", true);
-    xhttp.withCredentials = true;
-    xhttp.send();
-  }
-  </script>
-EOL;
-
-
 ?>
